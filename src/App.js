@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Header from './Header'
-import Movies from './Movies'
-import Movie from './Movie'
+import Header from './components/Header'
+import Movies from './components/Movies'
+import Movie from './components/Movie'
 
 class App extends Component {
   render() {

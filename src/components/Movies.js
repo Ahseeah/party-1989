@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import data from '../data/movies.json'
+import data from './movies.json'
 import Movie from './Movie'
 
 class Movies extends Component {

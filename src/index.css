@@ -9,12 +9,12 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-image: url('');
+  background-image: url('https://cdn.wallpapersafari.com/82/74/OvIAaz.jpg');
   background-size: cover;
 }
 
 header {
-  color: rgb(15, 17, 172);
+  color: rgb(0, 0, 0);
   text-align: center;
   background-image: url('');
   background-size: cover;
@@ -25,11 +25,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 section {
   border: 18px solid black;
-  background-color: rgb(175, 230, 218);
+  background-color: rgb(100, 224, 214);
   width: 70%;
   margin: 3rem;
   display: flex;
@@ -42,6 +43,7 @@ section h2 {
 
 figcaption {
   color: orchid;
+  text-align: center;
 }
 
 figcaption p {
