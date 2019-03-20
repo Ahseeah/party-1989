@@ -1,4 +1,21 @@
 import React, { Component } from 'react'
+import Header from './Header'
+import Movies from './Movies'
+import Movie from './Movie'
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <Movies />
+      </div>
+    )
+  }
+}
+
+export default App
+
 //import { Http2ServerRequest } from 'http2'
 const url = 'https://image.tmdb.org/t/p/w185_and_h278_bestv2/'
 // save url as a string to you can concatinate with each path (already done)
@@ -16,20 +33,3 @@ const url = 'https://image.tmdb.org/t/p/w185_and_h278_bestv2/'
 
 // sample of import
 // import Response from ./movies.json
-class App extends Component {
-  render() {
-    return (
-      <>
-        <header />
-        <section>
-          {' '}
-          <img src={url + '4p1N2Qrt8j0H8xMHMHvtRxv9weZ.jpg'} />
-          <img src={url + 'kBf3g9crrADGMc2AMAMlLBgSm2h.jpg'} />
-          <img src={url + '3Ri2GReavqSHqWemlP6HYn8i2P9.jpg'} />
-        </section>
-      </>
-    )
-  }
-}
-
-export default App
